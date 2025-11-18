@@ -13,4 +13,5 @@ const route = async () => {
     }
 }
 
+window.route = route;
 route();
