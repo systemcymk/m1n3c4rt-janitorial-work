@@ -10,8 +10,8 @@ const route = async () => {
                 }
             }
         }
-        window.location.replace(paige.url);
-        window.location.reload(); // goodbye!!
+        window.location.assign(paige.url);
+        // window.location.reload(); // goodbye!!
         // document.documentElement.innerHTML = paige.text();
     } catch (error) {
         console.error(error.message);
